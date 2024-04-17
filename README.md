@@ -1,4 +1,4 @@
-# Eaglercraft-package
+# EaglerStableDownload
 Eaglercraft 1.5.2 client, server and relay in one package for your convinience. Designed to be run in a Gitpod workspace or a Github Codespace.
 Shell scripts are available for your convinience. 
 
