@@ -1,8 +1,12 @@
 image: gitpod/workspace-full
 
-# List of tasks to run before the workspace is ready
-tasks:
+ports:
+  - port: 8000
+    onOpen: public
+  - port: 6699
+    onOpen: public
 
+tasks:
   - name: Start Relay Server
     command: |
       chmod +x ./StartRelay.sh
