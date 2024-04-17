@@ -1,0 +1,44 @@
+2024-04-17 17:57:01 [INFO] Starting minecraft server version 1.5.2
+2024-04-17 17:57:01 [INFO] Loading properties
+2024-04-17 17:57:01 [INFO] Default game type: SURVIVAL
+2024-04-17 17:57:01 [INFO] Generating keypair
+2024-04-17 17:57:02 [INFO] Starting Minecraft server on 127.0.0.1:25569
+2024-04-17 17:57:02 [INFO] This server is running CraftBukkit version git-Bukkit-1.5.2-R1.0-b2788jnks (MC: 1.5.2) (Implementing API version 1.5.2-R1.0)
+2024-04-17 17:57:03 [WARNING] Failed to load operators list: java.io.FileNotFoundException: ./ops.txt (No such file or directory)
+2024-04-17 17:57:03 [WARNING] Failed to load white-list: java.io.FileNotFoundException: ./white-list.txt (No such file or directory)
+2024-04-17 17:57:03 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2024-04-17 17:57:03 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2024-04-17 17:57:03 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2024-04-17 17:57:03 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2024-04-17 17:57:03 [INFO] Preparing level "world"
+2024-04-17 17:57:03 [SEVERE] Exception in thread "Thread-5" 
+2024-04-17 17:57:03 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2024-04-17 17:57:03 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:180)
+2024-04-17 17:57:03 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:755)
+2024-04-17 17:57:03 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:694)
+2024-04-17 17:57:03 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+2024-04-17 17:57:03 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+2024-04-17 17:57:03 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+2024-04-17 17:57:03 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2024-04-17 17:57:03 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+2024-04-17 17:57:03 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+2024-04-17 17:57:03 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:168)
+2024-04-17 17:57:03 [SEVERE] 	... 5 more
+2024-04-17 17:57:03 [INFO] Preparing start region for level 0 (Seed: 7133944393462035782)
+2024-04-17 17:57:04 [INFO] Preparing spawn area: 4%
+2024-04-17 17:57:05 [INFO] Preparing spawn area: 12%
+2024-04-17 17:57:06 [INFO] Preparing spawn area: 41%
+2024-04-17 17:57:07 [INFO] Preparing spawn area: 74%
+2024-04-17 17:57:08 [INFO] Preparing start region for level 1 (Seed: 7133944393462035782)
+2024-04-17 17:57:08 [INFO] Preparing spawn area: 4%
+2024-04-17 17:57:09 [INFO] Preparing spawn area: 37%
+2024-04-17 17:57:10 [INFO] Preparing spawn area: 91%
+2024-04-17 17:57:10 [INFO] Preparing start region for level 2 (Seed: 7133944393462035782)
+2024-04-17 17:57:11 [INFO] Preparing spawn area: 74%
+2024-04-17 17:57:11 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2024-04-17 17:57:11 [INFO] Done (8.633s)! For help, type "help" or "?"
+2024-04-17 17:57:11 [INFO] Crash Loop Detector is Running! (30sec)
+2024-04-17 17:57:11 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+2024-04-17 18:05:19 [INFO] There are 0/20 players online:
+[m
+2024-04-17 18:05:28 [INFO] [0;35;1m[Server] test[m
