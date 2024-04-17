@@ -1,0 +1,15 @@
+image: gitpod/workspace-full
+
+# List of tasks to run before the workspace is ready
+tasks:
+
+  - name: Start Relay Server
+    command: |
+      chmod +x ./StartRelay.sh
+      ./StartRelay.sh
+      
+  - name: Start HTTP Server
+    command: |
+      cd web
+      chmod +x ./StartHTTPServer.sh
+      ./StartHTTPServer.sh
